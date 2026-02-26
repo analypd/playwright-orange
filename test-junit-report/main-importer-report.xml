@@ -1,0 +1,18 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="9.39330600000173">
+<testsuite name="example.spec.ts" timestamp="2026-02-26T15:53:48.074Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.686" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.962">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\example-has-title-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="2.724">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\example-get-started-link-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
