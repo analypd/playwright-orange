@@ -1,7 +1,10 @@
-import { defineConfig, devices } from '@playwright/test';
 import * as dotenv from 'dotenv';
+
+
 // See https://github.com/motdotla/dotenv
 dotenv.config();
+import { defineConfig, devices } from '@playwright/test';
+
 
 // See https://playwright.dev/docs/test-configuration.
 export default defineConfig({
@@ -34,9 +37,9 @@ export default defineConfig({
 	/* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
 	use: {
 		/* Base URL to use in actions like `await page.goto('/')`. */
-		baseURL: 'https://dojo.upexgalaxy.com',
+		baseURL: 'https://opensource-demo.orangehrmlive.com/web/index.php',
 		// Headless Mode: true by default
-		headless: true,
+		headless: false,
 		// Viewport Resolution
 		viewport: { width: 1920, height: 1080 },
 		/* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
